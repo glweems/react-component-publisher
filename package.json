@@ -1,0 +1,57 @@
+{
+  "name": "@glweems/react-component-publisher",
+  "version": "0.0.1",
+  "description": "React component that animates a line under children text",
+  "keywords": [
+    "react",
+    "framer-motion",
+    "animated"
+  ],
+  "homepage": "https://github.com/glweems/react-component-publisher#readme",
+  "bugs": {
+    "url": "https://github.com/glweems/react-component-publisher/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/react-component-publisher.git"
+  },
+  "license": "MIT",
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@types/react": "16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "react-scripts": "^3.4.1",
+    "rollup": "^2.17.0",
+    "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "3.9.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
